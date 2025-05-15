@@ -8,7 +8,6 @@
 [Language Segment-Anything](https://github.com/luca-medeiros/lang-segment-anything)  
 [BLIP CAM:Self Hosted Live Image Captioning with Real-Time Video Stream](https://github.com/zawawiAI/BLIP_CAM)
 
-```
 ## Set up
 ```
 conda env create -f env_name.yaml
