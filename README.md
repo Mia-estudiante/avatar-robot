@@ -9,6 +9,8 @@
 
 ## Set up
 ```
+git clone -b sam2 https://github.com/Mia-estudiante/avatar-robot.git
+cd avatar-robot
 conda create -n [env_name] python=3.11
 pip install -r requirements.txt
 ```
