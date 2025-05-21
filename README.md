@@ -22,3 +22,10 @@ pip install transformers einops timm
 ```
 python captioning_florence.py
 ```
+Default task prompt is set as "<DETAILED_CAPTION>"   
+You can adjust the task prompt by giving it as an argument.
+```
+python captioning_florence.py --task_prompt "<CAPTION>"
+python captioning_florence.py --task_prompt "<DETAILED_CAPTION>"
+python captioning_florence.py --task_prompt "<MORE_DETAILED_CAPTION>"
+```
