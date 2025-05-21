@@ -8,9 +8,21 @@
 [BLIP CAM:Self Hosted Live Image Captioning with Real-Time Video Stream](https://github.com/zawawiAI/BLIP_CAM)
 
 ## Set up
+1. Clone the repository:
 ```
 git clone -b sam2 https://github.com/Mia-estudiante/avatar-robot.git
 cd avatar-robot
+```
+2. Install dependencies:
+```
 conda create -n [env_name] python=3.11
 pip install -r requirements.txt
+```
+3. Run the application:
+```
+python visual_input.py
+```
+or
+```
+python text_input.py
 ```
