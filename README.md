@@ -1,7 +1,6 @@
 
 ## Environment Used
-* Ubuntu 22.04 / 20.04
-* conda environment for each folder
+* conda environment for each branch
 
 [SAM 2: Segment Anything in Images and Videos](https://github.com/facebookresearch/sam2)  
 [SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory](https://github.com/yangchris11/samurai/tree/master)  
@@ -10,7 +9,6 @@
 
 ## Set up
 ```
-conda env create -f env_name.yaml
-pip install transformers
-pip install accelerate
+conda create -n [env_name] python=3.11
+pip install -r requirements.txt
 ```
